@@ -9,7 +9,7 @@ create table departamentos(
 create table profesores(
     id int auto_increment primary key,
     nom_prof varchar(40) not null,
-    sueldo float not null,
+    sueldo float(5,2) not null,
     img varchar(120) not null,
     dep_id int,
     constraint fk_dep_prof foreign key(dep_id) references departamentos(id) on delete cascade on update cascade
