@@ -1,0 +1,7 @@
+;renombralo a .conf
+;completa con tus credenciales
+[opciones]
+host=<tu servidor>
+dbname=<base de datos>
+user=<tu usuario>
+pass=<tu pass>
