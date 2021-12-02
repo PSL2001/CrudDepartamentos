@@ -1,5 +1,5 @@
 <?php
-namespace Deparatamentos;
+namespace Departamentos;
 
 use PDO;
 use PDOException;

@@ -14,5 +14,7 @@
             "email": "65461723+PSL2001@users.noreply.github.com"
         }
     ],
-    "require": {}
+    "require": {
+        "fakerphp/faker": "^1.16"
+    }
 }
