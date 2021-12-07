@@ -151,7 +151,7 @@ class Profesores extends Conexion {
         }
         parent::$conexion = null;
 
-        return $stmt;
+        return $stmt->fetchAll(PDO::FETCH_OBJ);
     }
 
 
